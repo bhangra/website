@@ -41,9 +41,7 @@ data:
     port: 20250
     serializeImagePulls: false
     evictionHard:
-      memory.available:  "200Mi"
-~                                  
-
+      memory.available:  "200Mi"                                  
 ```
 
 In the example, the Kubelet is configured to serve on IP address 192.168.0.8 and port 20250, pull images in parallel,
